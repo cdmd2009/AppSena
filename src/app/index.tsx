@@ -40,6 +40,12 @@ export default function HomeScreen() {
         </ThemedView>
 
 
+        <ThemedView type="backgroundElement" style={styles.stepContainer}>
+          <HintRow
+            title="Producto"
+            hint={<ThemedText type="code">10.000</ThemedText>}
+          />
+        </ThemedView>
 
       </SafeAreaView>
     </ThemedView>
