@@ -47,7 +47,7 @@ export default function HomeScreen() {
           />
           <HintRow
             title="Agregue un producto"
-            hint={<ThemedText type="code">+   1   </ThemedText>}
+            hint={<ThemedText type="code">+   1   -</ThemedText>}
           />
         </ThemedView>
 
