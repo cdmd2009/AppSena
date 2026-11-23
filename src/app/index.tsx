@@ -45,6 +45,10 @@ export default function HomeScreen() {
             title="Producto"
             hint={<ThemedText type="code">10.000</ThemedText>}
           />
+          <HintRow
+            title="Agregue un producto"
+            hint={<ThemedText type="code">+   1   </ThemedText>}
+          />
         </ThemedView>
 
       </SafeAreaView>
